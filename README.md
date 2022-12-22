@@ -10,7 +10,9 @@
 ## Environment
 - **Map**
   - 9x16 txt 파일 생성 후 값들을 받아 맵을 생성</br>
+
 ![poster](./916.png)
+
 - **State**
   - 이 Environment에서 State와 Observation은 동일한 값이다.
   - State는 Map의 전체 값 그 자체를 받는다.
