@@ -10,11 +10,11 @@
 ## Environment
 - **Map**
   - 9x16 txt 파일 생성 후 값들을 받아 맵을 생성. 값의 의미는 다음과 같음.<br/>
-    - 0: 그냥 땅(Agent가 자유롭게 이동할 수 있는 pixel)
-    - 1: 벽(해당 pixel을 밟을 수도, 무시하고 지나갈 수도 없음.)
-    - 2: 가시덤불(해당 pixel을 밟을 수는 있지만 즉시 음의 Reward를 받음.)
-    - 3: Agent
-    - 4: Cookie(해당 pixel에서는 양의 Reward를 받지만, 매 timestep -1의 Reward를 받고 있기 때문에 cookie를 다 챙기면 오히려 전체 reward를 낮추게 된다.)
+    - 0: 그냥 땅(Agent가 자유롭게 이동할 수 있는 pixel)<br/>
+    - 1: 벽(해당 pixel을 밟을 수도, 무시하고 지나갈 수도 없음.)<br/>
+    - 2: 가시덤불(해당 pixel을 밟을 수는 있지만 즉시 음의 Reward를 받음.)<br/>
+    - 3: Agent<br/>
+    - 4: Cookie(해당 pixel에서는 양의 Reward를 받지만, 매 timestep -1의 Reward를 받고 있기 때문에<br/>cookie를 다 챙기면 오히려 전체 reward를 낮추게 된다.)
 
 ![poster](./916.PNG)
 
