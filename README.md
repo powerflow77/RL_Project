@@ -9,7 +9,7 @@
  
 ## Environment
 - **Map**
-  - 9x16 txt 파일 생성 후 값들을 받아 맵을 생성</br>
+  - 9x16 txt 파일 생성 후 값들을 받아 맵을 생성<br/>
 
 ![poster](./916.png)
 
