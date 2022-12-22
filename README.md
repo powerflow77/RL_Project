@@ -14,7 +14,8 @@
     - 1: 벽(해당 pixel을 밟을 수도, 무시하고 지나갈 수도 없음.)<br/>
     - 2: 가시덤불(해당 pixel을 밟을 수는 있지만 즉시 음의 Reward를 받음.)<br/>
     - 3: Agent<br/>
-    - 4: Cookie(해당 pixel에서는 양의 Reward를 받지만, 매 timestep -1의 Reward를 받고 있기 때문에<br/>Cookie를 다 챙기면 오히려 전체 Reward를 낮추게 된다.)
+    - 4: Cookie(해당 pixel에서는 양의 Reward를 받지만, 매 timestep에 -1의 Reward를 받고 있기 때문에<br/>Cookie를 다 챙기면 오히려 전체 Reward를 낮추게 된다.)
+    - 5:
 
 ![poster](./916.PNG)
 
