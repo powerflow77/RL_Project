@@ -16,7 +16,7 @@
     - 3: Agent<br/>
     - 4: Cookie(해당 pixel에서는 양의 Reward를 받지만, 매 timestep에 -1의 Reward를 받고 있기 때문에<br/>Cookie를 다 챙기면 오히려 전체 Reward를 낮추게 된다.)
     - 5: 도착 지점
-    - ![poster](./916.PNG)
+    - map.txt --> ![poster](./916.PNG)
     
 
 - **State**
