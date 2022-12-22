@@ -15,3 +15,6 @@
   - 이 Environment에서 State와 Observation은 동일한 값이다.
   - State는 Map의 전체 값 그 자체를 받는다.
   - ANN에 입력 시에는 np.ravel로 Flattening 시켜서 입력으로 넣어준다.
+
+
+![poster](./gg.jpg)
