@@ -18,7 +18,6 @@
     - 5: 도착 지점
     - ![poster](./916.PNG)
     
-![poster](./916.PNG)
 
 - **State**
   - 이 Environment에서 State와 Observation은 동일한 값이다.<br/>
