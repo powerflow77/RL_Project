@@ -8,4 +8,5 @@
  
 ## Environment
 - **State**
-  - 이 Environment에서 State와 Observation은 동의어로 사용된다.
+  - 이 Environment에서 State와 Observation은 동일한 값이다.
+  - ㄹㄹㄹㄹ
