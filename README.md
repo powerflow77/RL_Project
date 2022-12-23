@@ -3,8 +3,9 @@
 
 ## 전체 구성
 - **게임 목표**
-  - Agent가 최단 시간 내에 Target에 도착하게 만들기<br/>
-    
+  - Agent가 Target에 정상적으로 도달하면서 Reward 누적합을 최대화<br/>
+  - 
+   
     
 - **동작**
   - 동작 예시 ----> ![poster](./anim.gif) <br/>
