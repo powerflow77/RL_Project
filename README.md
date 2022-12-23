@@ -28,17 +28,15 @@
 
 - **Action**
   - Agent가 할 수 있는 Action은 5가지이다.
-    - 0: 제자리 동작(다른 pixel로 이동하지 않는다.)
-    - 1: 위로 이동
-    - 2: 아래로 이동
-    - 3: 왼쪽으로 이동
-    - 4: 오른쪽으로 이동
 
-| number        | Second Header | Third Header         |
-| :------------:| :-----------: | -------------------: |
-| 0             | Data          | Very long data entry |
-|       1       | **Cell**      | *Cell*               |
-|       2       | Cell that spans across two columns  ||
+| number        | 수행 동작     | 
+| :------------:| :-----------: |
+| 0             | 제자리 동작    |   
+| 1             | 위로 이동      |            
+| 2             | 아래로 이동    |              
+| 3             | 왼쪽으로 이동  |    
+| 4             | 오른쪽으로 이동|             
+
 
 - **Reward**
   - 가시 덤불 pixel에 도달하면 -0.1의 Reward를 받는다.
