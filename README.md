@@ -27,4 +27,4 @@
   - ANN에 입력 시에는 np.ravel로 Flattening 시켜서 입력으로 넣어준다.<br/>
 
 
-![poster](./gg.jpg)
+![poster](./anim.gif)
