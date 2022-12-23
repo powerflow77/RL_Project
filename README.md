@@ -2,8 +2,11 @@
 # RL_Project
 
 ## 전체 구성
+- **OpenAi Gym version**
+  - 0.17.0
+    
 - **게임 목표**
-  - Agent가 Target에 정상적으로 도달하면서 Reward 누적합을 최대화<br/>
+  - Agent가 Target에 정상적으로 도달하면서 Reward 누적 합을 최대화<br/>
 
 - **실험 방법**
   - Value-Based RL의 대표 알고리즘인 DQN과<br/>Policy-Based RL의 대표 알고리즘인 PPO 성능 비교
@@ -41,7 +44,7 @@
 - **State**
   - 이 Environment에서 State와 Observation은 동일한 값이다.<br/>
   - State는 Map의 전체 값 그 자체를 받는다.<br/>
-  - ANN에 입력 시에는 np.ravel로 Flattening 시켜서 입력으로 넣어준다.<br/>
+  - ANN에 입력 시에는 Flattening 시켜서 입력으로 넣어준다.<br/>
 
 - **Action**
   - Agent가 할 수 있는 Action은 5가지이다.<br/>
@@ -63,3 +66,25 @@
 
 
 
+## 코드 실행 방법
+- 자세한 설명은 Script 파일 주석에 기술
+- maplemap.txt
+  - map 정보가 담겨있다.
+- gym_gridworld/env/**env_gridworld.py**
+  - Environment를 구현한 코드이다.
+  - def step(self, action)
+    - Agent가 어떤 action을 했을 때 pixel 값을 계산해 (Observation, Reward, 종료 여부)를 반환한다.
+  - def reset
+    - 값들을 초기화 한다.
+  - def render   
+    - 인간이 확인할 수 있도록 map을 명시적으로 보여준다.
+ 
+- **dqn_script_gpu적용.py**
+  - DQN 모델에 GPU를 적용하였다.
+  - 업로드 된 폴더 위치에서 위 파일을 열고 Run하면 학습이 시작된다.
+  - Elapsed_Time이 출력되면 정상적으로 학습이 되고 있는 과정이다.
+  - 20번째 Episode마다 Reward 평균이 출력된다.
+  
+- **ppo_script.py**
+  - PPO 모델을 설계하였다.
+  - 학습 방법은 위와 같다.
