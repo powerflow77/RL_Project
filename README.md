@@ -22,7 +22,7 @@
 | **3**    | Agent    |                                                                                                                                       |
 | **4**    | Cookie   | 해당 pixel에서는 양의 Reward를 받지만, 매 timestep에 -1의 Reward를 받고 있기 때문에<br/>Cookie를 다 챙기면 오히려 전체 Reward를 낮추게 된다. |
 | **5**    | 도착지점  |                                                                                                                                       |
-<center/>
+</center>
 
 - **State**
   - 이 Environment에서 State와 Observation은 동일한 값이다.<br/>
