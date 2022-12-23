@@ -73,7 +73,7 @@
 - gym_gridworld/env/**env_gridworld.py**
   - Environment를 구현한 코드이다.
   - def step(self, action)
-    - Agent가 어떤 action을 했을 때 pixel 값을 계산해 (Observation, Reward, 종료 여부)를 반환한다.
+    - Agent가 어떤 action을 했을 때 pixel 값을 계산해<br/>(Observation, Reward, 종료 여부)를 반환한다.
   - def reset
     - 값들을 초기화 한다.
   - def render   
