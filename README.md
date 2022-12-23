@@ -39,7 +39,6 @@
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
 | Third row     | Cell that spans across two columns  ||
-[Table caption, works as a reference][section-mmd-tables-table1]
 
 - **Reward**
   - 가시 덤불 pixel에 도달하면 -0.1의 Reward를 받는다.
