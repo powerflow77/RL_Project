@@ -67,8 +67,9 @@
 
 
 ## 코드 실행 방법
+- 자세한 설명은 Script 파일 주석에 기술
 - maplemap.txt
-  - 
+  - map 정보가 담겨있다.
 - gym_gridworld/env/**env_gridworld.py**
   - Environment를 구현한 코드이다.
   - def step(self, action)
@@ -78,4 +79,12 @@
   - def render   
     - 인간이 확인할 수 있도록 map을 명시적으로 보여준다.
  
-- 
+- **dqn_script_gpu적용.py**
+  - DQN 모델에 GPU를 적용하였다.
+  - 업로드 된 폴더 위치에서 위 파일을 열고 Run하면 학습이 시작된다.
+  - Elapsed_Time이 출력되면 정상적으로 학습이 되고 있는 과정이다.
+  - 20번째 Episode마다 Reward 평균이 출력된다.
+  
+ - **ppo_script**
+  - PPO 모델을 설계하였다.
+  - 학습 방법은 위와 같다.
