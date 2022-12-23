@@ -3,7 +3,7 @@
 
 ## 전체 구성
 - **게임 목표**
-  - Agent가 Target에 정상적으로 도달하면서 Reward 누적합을 최대화<br/>
+  - Agent가 Target에 정상적으로 도달하면서 Reward 누적 합을 최대화<br/>
 
 - **실험 방법**
   - Value-Based RL의 대표 알고리즘인 DQN과<br/>Policy-Based RL의 대표 알고리즘인 PPO 성능 비교
