@@ -67,7 +67,15 @@
 
 
 ## 코드 실행 방법
+- maplemap.txt
+  - 
 - gym_gridworld/env/**env_gridworld.py**
   - Environment를 구현한 코드이다.
   - def step(self, action)
     - Agent가 어떤 action을 했을 때 pixel 값을 계산해 (Observation, Reward, 종료 여부)를 반환한다.
+  - def reset
+    - 값들을 초기화 한다.
+  - def render   
+    - 인간이 확인할 수 있도록 map을 명시적으로 보여준다.
+ 
+- 
