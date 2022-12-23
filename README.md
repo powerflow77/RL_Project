@@ -35,6 +35,8 @@
     - 4: 오른쪽으로 이동
 
 - **Reward**
+  - 가시 덤불 pixel에 도달하면 -0.1의 Reward를 받는다.
+  - Cookie pixel에 도달하면 +1의 Reward를 받는다.
   - 
 
 
