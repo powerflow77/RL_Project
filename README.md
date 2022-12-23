@@ -67,7 +67,7 @@
 
 
 ## 코드 실행 방법
-- 자세한 설명은 Script 파일 주석에 기술
+- 함수와 코드에 대한 자세한 설명은 Script에서 주석으로 기술하였다.
 - maplemap.txt
   - map 정보가 담겨있다.
 - gym_gridworld/env/**env_gridworld.py**
