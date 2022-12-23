@@ -2,7 +2,7 @@
 # RL_Project
 
 ## 전체 구성
-- **OpenAi Gym version**
+- **OpenAi Gym Version**
   - 0.17.0
     
 - **게임 목표**
