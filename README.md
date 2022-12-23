@@ -85,6 +85,6 @@
   - Elapsed_Time이 출력되면 정상적으로 학습이 되고 있는 과정이다.
   - 20번째 Episode마다 Reward 평균이 출력된다.
   
- - **ppo_script**
+- **ppo_script.py**
   - PPO 모델을 설계하였다.
   - 학습 방법은 위와 같다.
