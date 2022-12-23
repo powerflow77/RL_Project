@@ -3,10 +3,12 @@
 
 ## 전체 구성
 - **게임 목표**
-  - Agent가 최단 시간 내에 Target에 도착하게 만들기
+  - Agent가 최단 시간 내에 Target에 도착하게 만들기<br/>
+    
 - **동작**
   - 
-  - 동작 예시 ----> ![poster](./anim.gif)
+  - 동작 예시 ----> ![poster](./anim.gif) <br/>
+  - 
 | **번호**          | **수행 동작** | 
 | :------------:    | :-----------: |
 | 노란색             | 목표 지점     |   
@@ -41,7 +43,7 @@
   - ANN에 입력 시에는 np.ravel로 Flattening 시켜서 입력으로 넣어준다.<br/>
 
 - **Action**
-  - Agent가 할 수 있는 Action은 5가지이다.
+  - Agent가 할 수 있는 Action은 5가지이다.<br/>
 
 | **번호**          | **수행 동작** | 
 | :------------:    | :-----------: |
@@ -53,9 +55,10 @@
 
 
 - **Reward**
-  - 가시 덤불 pixel에 도달하면 -0.1의 Reward를 받는다.
-  - Cookie pixel에 도달하면 +1의 Reward를 받는다.
-  - 매 timestep에 -1의 Reward를 받는다. --> 
+  - 가시 덤불 pixel에 도달하면 -0.1의 Reward를 받는다.<br/>
+  - Cookie pixel에 도달하면 +1의 Reward를 받는다.<br/>
+  - 매 timestep에 -1의 Reward를 받는다.<br/>
+  - 목표 지점에 도달하면 100.0의 Reward를 받는다.
 
 
 
