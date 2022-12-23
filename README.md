@@ -65,5 +65,5 @@
 
 ## 코드 실행 방법
 - gym_gridworld/env/**env_gridworld.py**
-  - Environment를 구현한 코드이다.
-  - 
+  1. Environment를 구현한 코드이다.
+  2. ㄹㄹㄹㄹ
