@@ -64,3 +64,5 @@
 
 
 ## 코드 실행 방법
+- **gym_gridworld/env/env_gridworld.py**
+  - dddd
