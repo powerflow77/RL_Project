@@ -35,7 +35,7 @@
     - 4: 오른쪽으로 이동
 
 | number        | Second Header | Third Header         |
-| :------------ | :-----------: | -------------------: |
+| :------------:| :-----------: | -------------------: |
 | 0             | Data          | Very long data entry |
 |       1       | **Cell**      | *Cell*               |
 |       2       | Cell that spans across two columns  ||
