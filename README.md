@@ -41,7 +41,7 @@
 - **State**
   - 이 Environment에서 State와 Observation은 동일한 값이다.<br/>
   - State는 Map의 전체 값 그 자체를 받는다.<br/>
-  - ANN에 입력 시에는 np.ravel로 Flattening 시켜서 입력으로 넣어준다.<br/>
+  - ANN에 입력 시에는 Flattening 시켜서 입력으로 넣어준다.<br/>
 
 - **Action**
   - Agent가 할 수 있는 Action은 5가지이다.<br/>
