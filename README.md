@@ -36,9 +36,9 @@
 
 | number        | Second Header | Third Header         |
 | :------------ | :-----------: | -------------------: |
-| First row     | Data          | Very long data entry |
-| Second row    | **Cell**      | *Cell*               |
-| Third row     | Cell that spans across two columns  ||
+| 0 | Data          | Very long data entry |
+| 1 | **Cell**      | *Cell*               |
+| 2 | Cell that spans across two columns  ||
 
 - **Reward**
   - 가시 덤불 pixel에 도달하면 -0.1의 Reward를 받는다.
