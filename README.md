@@ -34,7 +34,7 @@
     - 3: 왼쪽으로 이동
     - 4: 오른쪽으로 이동
 
-| First Header  | Second Header | Third Header         |
+| number        | Second Header | Third Header         |
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
 | Second row    | **Cell**      | *Cell*               |
