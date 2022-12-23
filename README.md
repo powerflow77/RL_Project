@@ -26,5 +26,16 @@
   - State는 Map의 전체 값 그 자체를 받는다.<br/>
   - ANN에 입력 시에는 np.ravel로 Flattening 시켜서 입력으로 넣어준다.<br/>
 
+- **Action**
+  - Agent가 할 수 있는 Action은 5가지이다.
+    - 0: 제자리 동작(다른 pixel로 이동하지 않는다.)
+    - 1: 위로 이동
+    - 2: 아래로 이동
+    - 3: 왼쪽으로 이동
+    - 4: 오른쪽으로 이동
+
+- **Reward**
+  - 
+
 
 ![poster](./anim.gif)
