@@ -2,6 +2,8 @@
 # RL_Project
 
 ## 전체 구성
+- **OpenAi Gym version**
+  - 
 - **게임 목표**
   - Agent가 Target에 정상적으로 도달하면서 Reward 누적 합을 최대화<br/>
 
@@ -67,4 +69,4 @@
 - gym_gridworld/env/**env_gridworld.py**
   1. Environment를 구현한 코드이다.
   2. def step(self, action):
-    1.
+    1. Agent가 어떤 action을 했을 때 pixel 값을 계산해 (Observation, Reward, 종료 여부)를 반환한다.
